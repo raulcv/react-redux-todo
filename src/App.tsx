@@ -1,24 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useEffect, useState } from 'react';
 import './App.css';
+import Main from './pages/Main'
+import Todo from './pages/Todo'
+import ThemeComponent from "./themeComponent"
+import { BrowserRouter, Route, Routes} from 'react-router-dom'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App bg-white dark:bg-black" >
+      <div className='max-w-7xl m-auto p-4'>
+        <div className='items-center dark:text-white'>
+          <div className='flex justify-end'>
+            <ThemeComponent />
+          </div>
+          <BrowserRouter>
+            <Routes>
+              <Route path='/' element={< Main />} />
+              <Route path='/todo' element={<Todo />} />
+              <Route path='/todo/:id' element={<Todo />} />
+            </Routes>
+          </BrowserRouter>
+        </div>
+      </div>
     </div>
   );
 }

@@ -1,0 +1,32 @@
+[
+	{
+		"id": 1,
+		"content": "Todo One Test by Bear Raul",
+		"done": false
+	},
+	{
+		"id": 2,
+		"content": "Buy Some milk at the store",
+		"done": true
+	},
+  {
+		"id": 3,
+		"content": "Clean my bedroom at the morning before breakfast",
+		"done": true
+	},
+  {
+		"id": 4,
+		"content": "Test my React app raulcv.com",
+		"done": true
+	},
+  {
+		"id": 5,
+		"content": "I want to Clear My House and the Patio",
+		"done": true
+	},
+  {
+		"id": 6,
+		"content": "Look out what's the name of socila media of Dinal Trump",
+		"done": true
+	}
+]
