@@ -1,6 +1,6 @@
 ## ReactJS with redux, example usage redux toolkit
 
-[![MasterHead](https://github.com/raulcv/react-redux-todo/blob/main/public/blackwhite.jpg)] 
+![MasterHead](https://github.com/raulcv/react-redux-todo/blob/main/public/blackwhite.jpg)
 <!-- (https://raulcv.com) -->
 
 Main operations
