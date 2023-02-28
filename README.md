@@ -30,7 +30,7 @@ git glone https://github.com/raulcv/react-redux-todo.git
 ```bash
 cd react-redux-todo 
 ```
-Finally run the tRPC API on dev mode 🤪
+Finally run the app on dev mode 🤪
 ```bash
 npm start
 ```
