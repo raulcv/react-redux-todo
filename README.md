@@ -26,21 +26,24 @@ It's fully functional persisting data locally
 ```bash
 git glone https://github.com/raulcv/react-redux-todo.git
 ```
->> Enter to your  local repository created with git clone
+> Enter to your  local repository created with git clone
 ```bash
 cd react-redux-todo 
 ```
+
+> Install NPM Dependencies
+```bash
+npm install
+```
+
 Finally run the app on dev mode 🤪
 ```bash
 npm start
 ```
 
-### `npm start`
-
-Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Learn More abou react
+## Learn More about react
 
 Check out the [React documentation](https://reactjs.org/).
 
